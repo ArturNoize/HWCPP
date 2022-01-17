@@ -16,8 +16,6 @@ using namespace std;
 * - продемонстрировать работу функций в main().
 */
 
-int const maxSudents = 20; //Максимальное кол-во студентов в группе
-
 struct Date_ //Структура даты
 {
 	int day; //День
@@ -85,6 +83,8 @@ struct Student //Структура студента
 
 void get_st() //Заполнение данных о студентах
 {
+	int const maxSudents = 20; //Максимальное кол-во студентов в группе
+
 	Student st1 = { "Vasiliy", "Vasin", {1,2,1990,"Friday"}, {17,1,2022,"Monday"} };
 	Student st2 = { "Ivan", "Ivanov", {9,12,1985,"Sunday"}, {17,1,2022,"Monday"} };
 	Student st3 = { "Petr", "Petrov", {16,8,2005,"Friday"}, {17,1,2022,"Monday"} };

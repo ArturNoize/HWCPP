@@ -1,0 +1,4 @@
+﻿  18_HomeWork.cpp
+c:\users\asus\source\repos\hwcpp\18_homework\18_homework\18_homework.cpp(124): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+c:\users\asus\source\repos\hwcpp\18_homework\18_homework\18_homework.cpp(127): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  18_HomeWork.vcxproj -> C:\Users\ASUS\Source\Repos\HWCPP\18_HomeWork\Debug\18_HomeWork.exe
